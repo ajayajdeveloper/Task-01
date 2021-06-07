@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="form1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="Get" >
+            <p class="star">Name</p>
+            <div class="row">
+                <div class="col-2"><input type="text" name="name" id="first" required></div>
+                &nbsp;
+                <div class="col-2"><input type="text" name="name" id="last"  required></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2"> <lable for="first">first </lable></div>
+                <div class="col-2"> <lable for="first">last </lable></div>
+            </div>
+            <br>
+            <p class="star">E-mail</p>
+            <div class="row">
+                <div class="col"><input type="email"name="email"  id="email"  size="50" required></div>
+            </div>
+            <br>
+            <p class="star">Your Experiance</p>
+
+            <div class="txt-center">
+                <form>
+                      <div class="rating">
+                          <input id="star5" name="star" type="radio" value="5" class="radio-btn hide" />
+                          <label for="star5" >☆</label>
+                          <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
+                          <label for="star4" >☆</label>
+                          <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
+                          <label for="star3" >☆</label>
+                          <input id="star2" name="star" type="radio" value="2" class="radio-btn hide" />
+                          <label for="star2" >☆</label>
+                          <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" />
+                          <label for="star1" >☆</label>
+                          <div class="clear"></div>
+                      </div>
+                  </form>
+              </div>
+           <p class="look">over all how you rate us ?</p>
+           <p class="star">How satisfied are you with</p>
+
+           <div class="table-responsive-sm">
+
+            <table class="table ">
+                <thead> 
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">very unsatisfied</th>
+                    <th scope="col">unsatisfied</th>
+                    <th scope="col">neutral</th>
+                    <th scope="col">satisfied</th>
+                    <th scope="col">very satisfied</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">purchase</th>
+                    <td><input type="radio" name="button1" id="button1" class="range" value="very satisfied"></td>
+                    <td><input type="radio" name="button1" id="button1" class="range" value="satisfied"></td>
+                    <td><input type="radio" name="button1" id="button1" class="range" value="neutral"></td>
+                    <td><input type="radio" name="button1" id="button1" class="range" value="unsatisfied"></td>
+                    <td><input type="radio" name="button1" id="button1" class="range" value="very unsatisfied"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">service</th>
+                    <td><input type="radio" name="button2" id="button2" class="range" value="very satisfied"></td>
+                    <td><input type="radio" name="button2" id="button2" class="range" value="satisfied"></td>
+                    <td><input type="radio" name="button2" id="button2" class="range" value="neutral"></td>
+                    <td><input type="radio" name="button2" id="button2" class="range" value="unsatisfied"></td>
+                    <td><input type="radio" name="button2" id="button2" class="range" value="very unsatisfied"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">overall</th>
+                    <td><input type="radio" name="button3" id="button3" class="range" value="very satisfied"></td>
+                    <td><input type="radio" name="button3" id="button3" class="range" value="satisfied"></td>
+                    <td><input type="radio" name="button3" id="button3" class="range" value="neutral"></td>
+                    <td><input type="radio" name="button3" id="button3" class="range" value="unsatisfied"></td>
+                    <td><input type="radio" name="button3" id="button3" class="range" value="very unsatisfied"></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <p class="star">How likely are you to</p>
+
+              <div class="table-responsive-md">
+
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">very unlikely</th>
+                      <th scope="col">unlikely</th>
+                      <th scope="col">neutal</th>
+                      <th scope="col">likely</th>
+                      <th scope="col">very unlikely</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">buy from us again</th>
+                      <td><input type="radio" name="button4" id="button4" class="range" value="very likely"></td>
+                      <td><input type="radio" name="button4" id="button4" class="range" value=" likely"></td>
+                      <td><input type="radio" name="button4" id="button4" class="range" value="neutral"></td>
+                      <td><input type="radio" name="button4" id="button4" class="range" value="unlikely"></td>
+                      <td><input type="radio" name="button4" id="button4" class="range" value="very unlikely"></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">recomend our product to others</th>
+                      <td><input type="radio" name="button5" id="button5" class="range" value="very likely"></td>
+                      <td><input type="radio" name="button5" id="button5" class="range" value=" likely"></td>
+                      <td><input type="radio" name="button5" id="button5" class="range" value="neutral"></td>
+                      <td><input type="radio" name="button5" id="button5" class="range" value="unlikely"></td>
+                      <td><input type="radio" name="button5" id="button5" class="range" value="very unlikely"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">recommend our company to other</th>
+                      <td><input type="radio" name="button6" id="button6" class="range" value="very likely"></td>
+                      <td><input type="radio" name="button6" id="button6" class="range" value=" likely"></td>
+                      <td><input type="radio" name="button6" id="button6" class="range" value="neutral"></td>
+                      <td><input type="radio" name="button6" id="button6" class="range" value="unlikely"></td>
+                      <td><input type="radio" name="button6" id="button6" class="range" value="very unlikely"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+            
+                    <p class="star">comments or suggestion</p>
+                     <div>
+                      <label for="msg"></label>
+                      <textarea id="msg" name="user_message" rows="4" cols="150" placeholder="Enter Text Here"></textarea>   
+                      </div>
+            
+            <button type="submit">submit</button>
+
+            
+
+    </div>
+</body>
+</html>
